@@ -134,3 +134,12 @@ function randomlinks(){
 }
 
 
+// Alternative: Click top-sticky bar to navigate to random page:
+
+const stickyBar = document.querySelector('.top-sticky')
+console.log(stickyBar)
+stickyBar.addEventListener('click', randomlinks)
+
+
+// Trial swipe event: source - https://www.kirupa.com/html5/detecting_touch_swipe_gestures.htm
+// Nothing here yet....
